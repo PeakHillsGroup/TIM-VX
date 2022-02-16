@@ -67,6 +67,7 @@ cc_library(
         "//src/tim/vx/internal:ovxlibimpl",
     ],
     linkstatic = True,
+    alwayslink = True,
     strip_include_prefix = "include",
 )
 
